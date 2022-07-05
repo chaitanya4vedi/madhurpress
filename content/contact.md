@@ -1,6 +1,7 @@
 ---
 title: "संपर्क करें"
 date: 2019-04-29T11:58:46+03:00
+draft: false
 heroimage: /images/Contact.jpg
 id: open-modal
 form: https://forms.gle/YvMkCVo3nu8VAowP9

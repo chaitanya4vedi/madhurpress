@@ -1,6 +1,7 @@
 ---
 title: "हमारे बारे में"
 date: 2022-04-27T19:49:49+05:30
+draft: false
 heroimage: /about.jpg
 herotext: हम सब आपको जागरूक बनाने और अधिक हासिल करने के बारे में हैं! 
 layout: about

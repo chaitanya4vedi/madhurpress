@@ -2,7 +2,7 @@
 title: "प्रेम क्या है?"
 subtitle: "प्यार पर एक निबंध"
 date: 2022-04-27T19:49:49+05:30
-draft: true
+draft: false
 author:
 images:
 - /love.jpg
