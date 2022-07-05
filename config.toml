@@ -1,0 +1,77 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'मधुर.press'
+theme = 'yuva'
+relativeURLs = true
+disqusShortname = 'bluedove-1'
+rssLimit = 20
+copyright = "2022 BlueDove All rights reserved"
+[params]
+    description = "BlueDove makes you aware, grow and achive more! BlueDove is a website which helps mentors, teachers, parents, and anyone who want to help their loved one gow with right pace and time."
+    author = "मधुर चतुर्वेदी"
+	email = "chaitanya4vedi@gmail.com"
+    authorImage = "/madhur_cropped.jpg"
+
+paginate = 1
+
+[[menu.main]]
+  name = "ब्लॉग"
+  url = "/blog"
+
+[[menu.main]]
+    name = "कैटेगरीज"
+    url = "/categories"
+
+[[menu.main]]
+  name = "अबाउट"
+  url = "/about"
+
+[[menu.main]]
+    name = "संपर्क "
+    url = "/contact"
+
+[[menu.social]]
+    name = "Linkedin"
+    url = "https:/linkedin.com/in/"
+    pre = "<i class='fab fa-linkedin'></i>"
+
+[[menu.social]]
+    name = "Twitter"
+    url = "https://twitter.com/"
+    pre = "<i class='fab fa-twitter'></i>"
+
+[[menu.social]]
+    name = "Instagram"
+    url = "https://instagram.com/"
+    pre = "<i class='fab fa-instagram'></i>"
+
+[related]
+    threshold = 0 
+    includeNewer = true
+    toLower = false
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
+[[menu.footer]]
+  name = "अबाउट"
+  url = "/about"
+
+[[menu.footer]]
+  name = "प्राइवेसी "
+  url = "/privacy"
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
